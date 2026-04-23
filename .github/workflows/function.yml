@@ -1,0 +1,9 @@
+name: Run Function
+on: 
+  push:
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Addition
+        run: node index.js
